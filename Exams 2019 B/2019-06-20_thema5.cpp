@@ -2,9 +2,9 @@
 
 using namespace std;
 
-
+template<class T>
 struct Eval {
-	int operator() (int x, int y, char c) {
+	T operator() (T x, T y, char c) {
 		if (c == '+')
 			return x + y;
 		else if (c == '-')
@@ -15,7 +15,7 @@ struct Eval {
 };
 
 int main() {
-	Eval e;
+	Eval<int> e;
 
 	cout << e(5,5,'*') << endl;
 }
