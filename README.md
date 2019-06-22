@@ -1,8 +1,6 @@
 # Cplusplus-Ateith
 Solutions of old exams
 
-![true](https://duckduckgo.com/?q=markup+image&t=ffab&ia=web)
-
 ::::::::::;++++#++;;:,,,,,,,,,,
 ::::::::;'+######+'++':,,,,,,,,
 :::::::##########+++++'::,,,,,,
