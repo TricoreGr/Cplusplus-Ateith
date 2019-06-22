@@ -8,7 +8,8 @@ function(10);
 
 // Ως αναφορά
 void function(int& a){}
-function(10);
+int a;
+function(a);
 
 // Ως σταθερή αναφορά
 void function(int const& a){}
