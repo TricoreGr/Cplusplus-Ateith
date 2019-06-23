@@ -1,3 +1,5 @@
+[Content](Content.md)
+
 ### Simple class
 ```cpp
 class MyClass{
