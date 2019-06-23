@@ -47,11 +47,11 @@ public:
 };
 
 int main() {
-	Perioxi p(3);
+	Perioxi p { 3 };
 
-	p.add_rect(Perioxi(1, 2));
-	p.add_rect(Perioxi(3, 4));
-	p.add_rect(Perioxi(5, 6));
+	p.add_rect({1, 2});
+	p.add_rect({3, 4});
+	p.add_rect({5, 6});
 
 	for (int i = 0; i < 3; i++)
 		printf("Rect #%d: emv = %.3f\n", i+1, p.emv(i));
