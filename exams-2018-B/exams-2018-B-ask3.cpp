@@ -15,6 +15,11 @@ function(a);
 void function(int const& a){}
 function(10);
 
+// Ως δείκτη
+void function(int* a){}
+int a;
+function(&a);
+
 // Ως rvalue αναφορά 
 // (Το αναφέρεις αν νιώθεις gentleman, δεν είναι στην ύλη)
 void function(int&& a){}
