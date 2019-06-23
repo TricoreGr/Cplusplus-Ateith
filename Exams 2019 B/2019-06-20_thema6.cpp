@@ -15,8 +15,11 @@ private:
 
 public:
 	// a
-	Perioxi(int nn = 1) : n {nn} 
-	{
+	Perioxi() { n = 1; }
+	
+	Perioxi(int nn) {
+		n = nn;
+		
 		p = new Rect[nn];
 
 		for (int i = 0; i < nn; i++) {
