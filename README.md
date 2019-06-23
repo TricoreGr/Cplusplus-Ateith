@@ -1,4 +1,4 @@
 # Cplusplus-Ateith
 Solutions of old exams
 
-[Notes](Notes\Content.md)
+[Notes](Notes/Content.md)
