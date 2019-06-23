@@ -1,3 +1,5 @@
+[Content](Content.md)
+
 ### Συναρτήσεις που δεν επιστρέφουν τιμή
 ```cpp
 void function{
