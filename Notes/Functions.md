@@ -1,6 +1,7 @@
 [Content](Content.md)
 
 ### Συναρτήσεις που δεν επιστρέφουν τιμή
+
 ```cpp
 void function{
     std::cout << "Hello World!" << std::endl;
@@ -12,6 +13,7 @@ void print(std::string var){
 ```
 
 ### Συναρτήσεις που επιστρέφουν τιμή
+
 ```cpp
 int add(int a, int b){
     return a+b;
@@ -23,6 +25,7 @@ std::string hi(){
 ```
 
 ### Επιστροφή αποτελεσμάτων μέσω αναφοράς
+
 ```cpp
 void add(int a, int b, int& res){
     res = a+b;
@@ -40,6 +43,7 @@ std::cout << a << std::endl; // a == 3
 - pointers
 
 ### Inline functions
+
 ```cpp
 inline void show(std::string var){
     std::cout << var << std::endl;    
